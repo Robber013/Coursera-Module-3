@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+  }
+body{
+    background-color: white;
+  }
+#back-top{
+    color: red;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+#back-top:hover{
+    background-color:red;
+    color:white;
+  }
+.navbar{
+    padding: 15px;
+    background-color: red;
+    color: white;
+    padding-left: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.navbar h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    display: inline;
+}
+#nav-list a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+    color: white;
+}
+#nav-list a:hover{
+    background-color: whitesmoke;
+    color: red;
+}
+#MENU{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    padding: 5px;
+}
+.container{
+    width: 100%;
+    padding: 5px;
+}
+.row{
+    width: 100%;
+    overflow: hidden;
+}
+.container #content{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: whitesmoke;
+    color: black;
+}
+.container #content .Food-item{
+    color: red;
+    text-align: center;
+}
+.container h3{
+    font-weight: bold;
+}
+.box h2{
+    color: red;
+}
+/***** Desktop Version *****/
+@media (min-width: 992px){
+    .navbar{
+        border-bottom: 2px solid black;
+        height:80px;
+    }
+}
+/***** Tablet Version *****/
+@media (min-width:768px) and (max-width:991px){
+    .navbar{
+        border-bottom: 2px solid black;
+        height:80px;
+      }
+}
+/***** Mobile Version *****/
+@media (max-width:767px){
+    .navbar{
+        border-bottom: 2px solid black;
+    }
+    .navbar-header{
+        border-bottom: 2px red;
+    }
+    .navbar .navbar-toggle{
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color: white;
+    }
+    .navbar .icon-bar{
+        background-color: black;
+    }
+}
